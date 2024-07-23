@@ -23,7 +23,6 @@ namespace C_PracticeClassesAndObjects.Models.ProductCatalogue
 
         public void ShowProducts()
         {
-            Product[] products = productCatalogue.GetProducts();
             Console.WriteLine(productCatalogue);
         }
 
