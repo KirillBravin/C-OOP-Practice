@@ -2,6 +2,12 @@
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise1;
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise2;
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise3and4;
+using C_PracticeClassesAndObjects.Models.Lesson6.Banking_System;
+using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists;
+using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists.Order_System;
+using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_1;
+using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_2;
+using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_3;
 using C_PracticeClassesAndObjects.Models.ProductCatalogue;
 using OOP.Models;
 using OOP.Models.Cars;
@@ -14,49 +20,8 @@ namespace C_PracticeClassesAndObjects
     {
         public static void Main()
         {
-            //Product Catalogue
-
-            //CallProductCatalogue catalogueManager = new CallProductCatalogue();
-            //catalogueManager.AddInitialProducts();
-            //catalogueManager.ShowProducts();
-            //catalogueManager.RemoveProduct("Milk");
-            //catalogueManager.ShowProducts();
-            //catalogueManager.showTotalPrice();
-            //catalogueManager.FindProduct("Potatoes");
-
-            // Students
-
-            //StudentRegistry studentManager = new StudentRegistry();
-            //studentManager.AddingInitialStudents();
-            //studentManager.ShowAllStudents();
-            //studentManager.RemoveStudent("Mark", "Zuckerberg");
-            //studentManager.AddStudent("Lisa", "Kudrow", [4, 6, 5]);
-            //studentManager.ShowAllStudents();
-            //studentManager.FindStudent("Albert");
-            //studentManager.TotalAverageGrade();
-            //studentManager.CallingAverageGrade("Lisa", "Kudrow");
-
-            // Exercises
-            // Exercise 1
-
-            CallAutos cars = new CallAutos();
-            cars.ShowAutos();
-
-            // Exercise 2
-
-            Exercise2 user = new Exercise2();
-            user.UserAge();
-
-            // Exercise 3 and 4
-
-            Loops loops = new Loops();
-            loops.ForLoop();
-            loops.WhileLoop();
-
-            // Exercise 5
-
-            CallStudent student = new CallStudent();
-            student.CheckGrade();
+            BankingOperations bankingOperations = new BankingOperations();
+            bankingOperations.Initializing();
         }
     }
 }
