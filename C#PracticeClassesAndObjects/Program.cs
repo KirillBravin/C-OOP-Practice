@@ -3,6 +3,7 @@ using C_PracticeClassesAndObjects.Models.Exercises.Exercise1;
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise2;
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise3and4;
 using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists;
+using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists.Order_System;
 using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_1;
 using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_2;
 using C_PracticeClassesAndObjects.Models.Lesson6.Extra_Exercises.Exercise_3;
@@ -32,9 +33,20 @@ namespace C_PracticeClassesAndObjects
 
             // Exercise 3
 
-            CallProducts products = new CallProducts();
-            products.AddingProducts();
-            products.CalculateProductSum();
+            //CallProducts products = new CallProducts();
+            //products.AddingProducts();
+            //products.CalculateProductSum();
+
+            // Exercise 4
+
+            CallOrders callOrders = new CallOrders();
+
+            callOrders.Initialize();
+
+            callOrders.OrderProducts("Harry", "Pizza");
+            callOrders.OrderProducts("Leona", "Soup");
+
+            callOrders.ShowTotalPrice();
         }
     }
 }
