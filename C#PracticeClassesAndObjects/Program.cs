@@ -20,9 +20,21 @@ namespace C_PracticeClassesAndObjects
         {
             // Exercise 1
 
-            CallStudentList studentList = new CallStudentList();
-            studentList.AddingStudents();
-            studentList.ShowStudentsWithBadGrades();
+            //CallStudentList studentList = new CallStudentList();
+            //studentList.AddingStudents();
+            //studentList.ShowStudentsWithBadGrades();
+
+            // Exercise 2
+
+            //CallLibrary library = new CallLibrary();
+            //library.AddingBooks();
+            //library.ShowBooksForRent();
+
+            // Exercise 3
+
+            CallProducts products = new CallProducts();
+            products.AddingProducts();
+            products.CalculateProductSum();
         }
     }
 }
