@@ -18,7 +18,7 @@ namespace C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_1.Models
 
         public override string ToString()
         {
-            return base.ToString() + $", PassengerCount: {PassangerCount}";
+            return base.ToString() + $", Passenger count: {PassangerCount}";
         }
     }
 }

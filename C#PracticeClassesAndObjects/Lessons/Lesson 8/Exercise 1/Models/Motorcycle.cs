@@ -17,7 +17,7 @@ namespace C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_1.Models
 
         public override string ToString()
         {
-            return base.ToString() + $", HasSideCart: {HasSideCart}";
+            return base.ToString() + $", Has side cart: {HasSideCart}";
         }
     }
 }
