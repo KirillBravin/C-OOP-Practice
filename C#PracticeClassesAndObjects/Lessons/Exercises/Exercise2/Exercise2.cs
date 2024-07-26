@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace C_PracticeClassesAndObjects.Models.Exercises.Exercise2
+namespace C_PracticeClassesAndObjects.Lessons.Exercises.Exercise2
 {
     public class Exercise2
     {

@@ -1,7 +1,5 @@
-﻿using C_PracticeClassesAndObjects.Models.Exercises.Exercise_5;
-using C_PracticeClassesAndObjects.Models.Exercises.Exercise1;
-using C_PracticeClassesAndObjects.Models.Exercises.Exercise2;
-using C_PracticeClassesAndObjects.Models.Exercises.Exercise3and4;
+﻿using C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_1.Service;
+using C_PracticeClassesAndObjects.Models.Exercises.Exercise_5;
 using C_PracticeClassesAndObjects.Models.Lesson6.Banking_System;
 using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists;
 using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists.Order_System;
@@ -20,8 +18,10 @@ namespace C_PracticeClassesAndObjects
     {
         public static void Main()
         {
-            BankingOperations bankingOperations = new BankingOperations();
-            bankingOperations.Initializing();
+            Service service = new Service();
+            service.Initialization();
+            service.ShowAllCars();
+            service.ShowAllMotorcycles();
         }
     }
 }
