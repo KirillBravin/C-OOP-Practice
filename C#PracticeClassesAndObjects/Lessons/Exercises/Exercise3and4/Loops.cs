@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_PracticeClassesAndObjects.Models.Exercises.Exercise3and4
+namespace C_PracticeClassesAndObjects.Lessons.Exercises.Exercise3and4
 {
     public class Loops
     {

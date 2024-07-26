@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Lessons\Lesson 7\School management system\" />
+  </ItemGroup>
+
 </Project>

@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_PracticeClassesAndObjects.Models.Exercises.Exercise1
+namespace C_PracticeClassesAndObjects.Lessons.Exercises.Exercise1
 {
     public class Car
     {
         public string Mark { get; set; }
         public int Year { get; set; }
 
-        public Car (string mark, int year)
+        public Car(string mark, int year)
         {
             Mark = mark;
             Year = year;
@@ -40,7 +40,7 @@ namespace C_PracticeClassesAndObjects.Models.Exercises.Exercise1
 
         public void ShowAutos()
         {
-            foreach(Car car in cars)
+            foreach (Car car in cars)
             {
                 Console.WriteLine(car.ToString());
             }
