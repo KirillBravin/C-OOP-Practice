@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Lessons\Lesson 7\School management system\" />
-    <Folder Include="Lessons\Lesson 8\Exercise 4\Models\" />
   </ItemGroup>
 
 </Project>
