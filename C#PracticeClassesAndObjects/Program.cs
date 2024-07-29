@@ -1,6 +1,6 @@
 ﻿using C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_2.Service;
-using C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_3.Service;
 using C_PracticeClassesAndObjects.Lessons.Lesson_8.Exercise_4.Service;
+using C_PracticeClassesAndObjects.Lessons.Lesson_9.Employee_Manager.Service;
 using C_PracticeClassesAndObjects.Models.Exercises.Exercise_5;
 using C_PracticeClassesAndObjects.Models.Lesson6.Banking_System;
 using C_PracticeClassesAndObjects.Models.Lesson6.Exercises_with_lists;
@@ -20,8 +20,8 @@ namespace C_PracticeClassesAndObjects
     {
         public static void Main()
         {
-            Main main = new Main();
-            main.Initialization();
+            EmployeeManagerService employeeManagerService = new EmployeeManagerService();
+            employeeManagerService.Initialization();
         }
     }
 }

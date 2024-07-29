@@ -9,7 +9,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Lessons\Lesson 8\Exercise 3\Service\BookService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Lessons\Lesson 8\Exercise 3\Service\BookService.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Lessons\Lesson 7\School management system\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Lessons\Lesson 9\Employee Manager\Models\Employee.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Lessons\Lesson 9\Employee Manager\Service\EmployeeManagerService.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>
